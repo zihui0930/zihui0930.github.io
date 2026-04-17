@@ -11,161 +11,191 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <div class="page">
-      <aside class="sidebar">
-        <h1>Zihui Zhang</h1>
-        <p class="role">Postdoctoral Researcher</p>
-        <p class="affiliation">Department of Computing<br />The Hong Kong Polytechnic University</p>
-        <p class="contact-item">Email: <a href="mailto:zihui.zhang@connect.polyu.hk">zihui.zhang@connect.polyu.hk</a></p>
-        <p class="contact-item">Tel: +86 13438887301 / +852 56375889</p>
-        <p class="links">
-          <a href="assets/docs/CV_Zihui_Zhang.pdf" target="_blank" rel="noopener">CV (PDF)</a>
-        </p>
+    <div class="container">
+      <header class="top-nav">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#awards">Awards</a>
+        <a href="#services">Services</a>
+      </header>
 
-        <nav>
-          <a href="#about">About</a>
-          <a href="#interests">Research Interests</a>
-          <a href="#education">Education</a>
-          <a href="#publications">Publications</a>
-          <a href="#activities">Academic Activities</a>
-        </nav>
-      </aside>
-
-      <main class="content">
-        <section id="about">
-          <h2>About</h2>
-          <p>
-            I am a Postdoctoral Researcher at The Hong Kong Polytechnic University,
-            advised by Prof. Bo Yang. My work focuses on unsupervised learning in
-            3D vision and 3D generative models, especially object-centric
-            representations and segmentation in point clouds.
+      <section id="about" class="profile">
+        <div class="avatar" aria-label="Profile photo placeholder">
+          <span class="avatar-placeholder-text">Photo</span>
+        </div>
+        <div class="profile-content">
+          <h1>Zihui Zhang</h1>
+          <p class="subtitle">
+            Postdoctoral Researcher, Department of Computing, The Hong Kong Polytechnic University
           </p>
-        </section>
+          <p>
+            I am a Postdoctoral Researcher advised by Prof. Bo Yang. My research focuses on
+            <strong>unsupervised learning in 3D vision</strong> and <strong>3D generative models</strong>,
+            with interests in object-centric representation learning and semantic/instance segmentation.
+          </p>
+          <p class="contact-row">
+            <a href="mailto:zihui.zhang@connect.polyu.hk">Email</a>
+            <span>|</span>
+            <a href="assets/docs/CV_Zihui_Zhang.pdf" target="_blank" rel="noopener">CV</a>
+            <span>|</span>
+            <span>Tel: +86 13438887301 / +852 56375889</span>
+          </p>
+          <p class="keywords">
+            Keywords: Unsupervised 3D Learning, 3D Point Clouds, 3D Generative Models
+          </p>
+          <p class="image-path-tip">Profile image path: <code>assets/images/avatar.jpg</code> (recommended 512x512)</p>
+        </div>
+      </section>
 
-        <section id="interests">
-          <h2>Research Interests</h2>
-          <ul>
-            <li>Unsupervised learning in 3D vision</li>
-            <li>3D generative models</li>
-            <li>3D semantic and instance segmentation</li>
-          </ul>
-        </section>
+      <section id="images">
+        <h2>Research Images</h2>
+        <div class="image-grid">
+          <div class="image-card">
+            <div class="image-slot" aria-label="Research overview image placeholder">Research Overview Image</div>
+            <p>Replace with: <code>assets/images/research-overview.jpg</code> (recommended 1600x900)</p>
+          </div>
+          <div class="image-card">
+            <div class="image-slot" aria-label="Project showcase image placeholder">Project Showcase Image</div>
+            <p>Replace with: <code>assets/images/project-showcase.jpg</code> (recommended 1600x900)</p>
+          </div>
+        </div>
+      </section>
 
-        <section id="education">
-          <h2>Education</h2>
-          <ul class="timeline">
-            <li>
-              <div class="time">2026.02 - now</div>
-              <div class="item-body">
-                <strong>The Hong Kong Polytechnic University</strong><br />
-                PostDoc, Department of Computing<br />
-                Advisor: Bo Yang
-              </div>
-            </li>
-            <li>
-              <div class="time">2021.09 - 2026.01</div>
-              <div class="item-body">
-                <strong>The Hong Kong Polytechnic University</strong><br />
-                PhD, Department of Computing<br />
-                Advisor: Bo Yang
-              </div>
-            </li>
-            <li>
-              <div class="time">2018.09 - 2021.06</div>
-              <div class="item-body">
-                <strong>Xi'an Jiaotong University</strong><br />
-                MSc, School of Mathematics and Statistics<br />
-                Advisor: Huibin Li
-              </div>
-            </li>
-            <li>
-              <div class="time">2014.09 - 2018.06</div>
-              <div class="item-body">
-                <strong>University of Electronic Science and Technology of China</strong><br />
-                BSc, School of Mathematical Science
-              </div>
-            </li>
-          </ul>
-        </section>
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li><span class="news-date">2026</span> One paper accepted by CVPR 2026.</li>
+          <li><span class="news-date">2026</span> One paper accepted by TPAMI 2026.</li>
+          <li><span class="news-date">2025</span> GrabS accepted by ICLR 2025 as Spotlight (Top 5%).</li>
+          <li><span class="news-date">2025</span> One paper accepted by CVPR 2025.</li>
+          <li><span class="news-date">2025</span> One paper accepted by ICML 2025.</li>
+        </ul>
+      </section>
 
-        <section id="publications">
-          <h2>Selected Publications</h2>
-          <ol class="publication-list">
-            <li>
-              <strong>EvObj: Learning Evolving Object-centric Representations for 3D Instance Segmentation without Scene Supervision</strong><br />
-              Jiahao Chen, <strong>Zihui Zhang</strong>, Yafei Yang, Jinxi Li, Shenxing Wei, Zhixuan Sun, Bo Yang<br />
-              CVPR, 2026
-            </li>
-            <li>
-              <strong>GrowSP++: Growing Superpoints and Primitives for Unsupervised 3D Semantic Segmentation</strong><br />
-              <strong>Zihui Zhang</strong>, Weisheng Dai, Bo Yang, Bing Wang, Bo Li<br />
-              TPAMI, 2026
-            </li>
-            <li>
-              <strong>GrabS: Generative Embodied Agent for 3D Object Segmentation without Scene Supervision</strong><br />
-              <strong>Zihui Zhang</strong>, Yafei Yang, Hongtao Wen, Bo Yang<br />
-              ICLR, 2025 (Spotlight Top 5%)
-            </li>
-            <li>
-              <strong>LogoSP: Local-global Grouping of Superpoints for Unsupervised Semantic Segmentation of 3D Point Clouds</strong><br />
-              <strong>Zihui Zhang</strong>, Weisheng Dai, Hongtao Wen, Bo Yang<br />
-              CVPR, 2025
-            </li>
-            <li>
-              <strong>unMORE: Unsupervised Multi-Object Segmentation via Center-Boundary Reasoning</strong><br />
-              Yafei Yang, <strong>Zihui Zhang</strong>, Bo Yang<br />
-              ICML, 2025
-            </li>
-            <li>
-              <strong>Boundary-aware Multiclass Spinal Cord Tumor Segmentation on 3D MRI Scans</strong><br />
-              Hongkang Song, <strong>Zihui Zhang</strong>, Yanpeng Zhou, Jie Hu, Zishuo Wang, Hou Him Chan, Chon Lok Lei, Chen Xu, Yu Xin, Bo Yang<br />
-              ECCV Workshop, 2024
-            </li>
-            <li>
-              <strong>Adaptive Representation Learning and Sample Weighting for Low-Quality 3D Face Recognition</strong><br />
-              Cuican Yu, Fengxun Sun, <strong>Zihui Zhang</strong>, Huibin Li, Limin Chen, Jian Sun, Zongben Xu<br />
-              Pattern Recognition, 2024
-            </li>
-            <li>
-              <strong>GrowSP: Unsupervised Semantic Segmentation of 3D Point Clouds</strong><br />
-              <strong>Zihui Zhang</strong>, Bo Yang, Bing Wang, Bo Li<br />
-              CVPR, 2023
-            </li>
-            <li>
-              <strong>Meta-learning-based adversarial training for deep 3D face recognition on point clouds</strong><br />
-              Cuican Yu, <strong>Zihui Zhang</strong>, Huibin Li, Jian Sun, Zongben Xu<br />
-              Pattern Recognition, 2023
-            </li>
-            <li>
-              <strong>Learning Flexibly Distributional Representation for Low-quality 3D Face Recognition</strong><br />
-              <strong>Zihui Zhang</strong>, Cuican Yu, Shuang Xu, Huibin Li<br />
-              AAAI, 2021
-            </li>
-            <li>
-              <strong>Learning Distribution Independent Latent Representation for 3D Face Disentanglement</strong><br />
-              <strong>Zihui Zhang</strong>, Cuican Yu, Huibin Li, Jian Sun, Feng Liu<br />
-              3DV, 2020
-            </li>
-            <li>
-              <strong>A Distribution Independence based Method for 3D Face Shape Decomposition</strong><br />
-              Cuican Yu, <strong>Zihui Zhang</strong>, Huibin Li, Jian Sun, Zongben Xu<br />
-              Computer Vision and Image Understanding, 2021
-            </li>
-          </ol>
-        </section>
+      <section id="publications">
+        <h2>Publications</h2>
+        <ol class="publication-list">
+          <li>
+            <p class="pub-title">EvObj: Learning Evolving Object-centric Representations for 3D Instance Segmentation without Scene Supervision</p>
+            <p class="pub-meta">Jiahao Chen, <strong>Zihui Zhang</strong>, Yafei Yang, Jinxi Li, Shenxing Wei, Zhixuan Sun, Bo Yang</p>
+            <p class="pub-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</p>
+          </li>
+          <li>
+            <p class="pub-title">GrowSP++: Growing Superpoints and Primitives for Unsupervised 3D Semantic Segmentation</p>
+            <p class="pub-meta"><strong>Zihui Zhang</strong>, Weisheng Dai, Bo Yang, Bing Wang, Bo Li</p>
+            <p class="pub-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026</p>
+          </li>
+          <li>
+            <p class="pub-title">GrabS: Generative Embodied Agent for 3D Object Segmentation without Scene Supervision</p>
+            <p class="pub-meta"><strong>Zihui Zhang</strong>, Yafei Yang, Hongtao Wen, Bo Yang</p>
+            <p class="pub-venue">International Conference on Learning Representations (ICLR), 2025 (Spotlight Top 5%)</p>
+          </li>
+          <li>
+            <p class="pub-title">LogoSP: Local-global Grouping of Superpoints for Unsupervised Semantic Segmentation of 3D Point Clouds</p>
+            <p class="pub-meta"><strong>Zihui Zhang</strong>, Weisheng Dai, Hongtao Wen, Bo Yang</p>
+            <p class="pub-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025</p>
+          </li>
+          <li>
+            <p class="pub-title">unMORE: Unsupervised Multi-Object Segmentation via Center-Boundary Reasoning</p>
+            <p class="pub-meta">Yafei Yang, <strong>Zihui Zhang</strong>, Bo Yang</p>
+            <p class="pub-venue">The International Conference on Machine Learning (ICML), 2025</p>
+          </li>
+          <li>
+            <p class="pub-title">Boundary-aware Multiclass Spinal Cord Tumor Segmentation on 3D MRI Scans</p>
+            <p class="pub-meta">Hongkang Song, <strong>Zihui Zhang</strong>, Yanpeng Zhou, Jie Hu, Zishuo Wang, Hou Him Chan, Chon Lok Lei, Chen Xu, Yu Xin, Bo Yang</p>
+            <p class="pub-venue">The European Conference on Computer Vision Workshop (ECCV Workshop), 2024</p>
+          </li>
+          <li>
+            <p class="pub-title">Adaptive Representation Learning and Sample Weighting for Low-Quality 3D Face Recognition</p>
+            <p class="pub-meta">Cuican Yu, Fengxun Sun, <strong>Zihui Zhang</strong>, Huibin Li, Limin Chen, Jian Sun, Zongben Xu</p>
+            <p class="pub-venue">Pattern Recognition, 2024</p>
+          </li>
+          <li>
+            <p class="pub-title">GrowSP: Unsupervised Semantic Segmentation of 3D Point Clouds</p>
+            <p class="pub-meta"><strong>Zihui Zhang</strong>, Bo Yang, Bing Wang, Bo Li</p>
+            <p class="pub-venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023</p>
+          </li>
+          <li>
+            <p class="pub-title">Meta-learning-based adversarial training for deep 3D face recognition on point clouds</p>
+            <p class="pub-meta">Cuican Yu, <strong>Zihui Zhang</strong>, Huibin Li, Jian Sun, Zongben Xu</p>
+            <p class="pub-venue">Pattern Recognition, 2023</p>
+          </li>
+          <li>
+            <p class="pub-title">Learning Flexibly Distributional Representation for Low-quality 3D Face Recognition</p>
+            <p class="pub-meta"><strong>Zihui Zhang</strong>, Cuican Yu, Shuang Xu, Huibin Li</p>
+            <p class="pub-venue">The AAAI Conference on Artificial Intelligence (AAAI), 2021</p>
+          </li>
+          <li>
+            <p class="pub-title">Learning Distribution Independent Latent Representation for 3D Face Disentanglement</p>
+            <p class="pub-meta"><strong>Zihui Zhang</strong>, Cuican Yu, Huibin Li, Jian Sun, Feng Liu</p>
+            <p class="pub-venue">The International Conference on 3D Vision (3DV), 2020</p>
+          </li>
+          <li>
+            <p class="pub-title">A Distribution Independence based Method for 3D Face Shape Decomposition</p>
+            <p class="pub-meta">Cuican Yu, <strong>Zihui Zhang</strong>, Huibin Li, Jian Sun, Zongben Xu</p>
+            <p class="pub-venue">Computer Vision and Image Understanding (CVIU), 2021</p>
+          </li>
+        </ol>
+      </section>
 
-        <section id="activities">
-          <h2>Academic Activities</h2>
-          <ul>
-            <li>Journal Reviewer: IJCV, TNNLS, TCSVT</li>
-            <li>Conference Reviewer: NeurIPS, CVPR, ICCV, ICML, ECCV</li>
-          </ul>
-        </section>
+      <section id="education">
+        <h2>Education</h2>
+        <ul class="timeline">
+          <li>
+            <div class="time">2026.02 - now</div>
+            <div class="item-body">
+              <strong>The Hong Kong Polytechnic University</strong><br />
+              PostDoc, Department of Computing<br />
+              Advisor: Bo Yang
+            </div>
+          </li>
+          <li>
+            <div class="time">2021.09 - 2026.01</div>
+            <div class="item-body">
+              <strong>The Hong Kong Polytechnic University</strong><br />
+              PhD, Department of Computing<br />
+              Advisor: Bo Yang
+            </div>
+          </li>
+          <li>
+            <div class="time">2018.09 - 2021.06</div>
+            <div class="item-body">
+              <strong>Xi'an Jiaotong University</strong><br />
+              MSc, School of Mathematics and Statistics<br />
+              Advisor: Huibin Li
+            </div>
+          </li>
+          <li>
+            <div class="time">2014.09 - 2018.06</div>
+            <div class="item-body">
+              <strong>University of Electronic Science and Technology of China</strong><br />
+              BSc, School of Mathematical Science
+            </div>
+          </li>
+        </ul>
+      </section>
 
-        <footer>
-          <p>Last updated: April 2026</p>
-        </footer>
-      </main>
+      <section id="awards">
+        <h2>Awards & Honors</h2>
+        <ul>
+          <li>ICLR 2025 Spotlight (Top 5%)</li>
+          <li>Multiple top-tier publications in CVPR, ICLR, ICML, TPAMI</li>
+        </ul>
+      </section>
+
+      <section id="services">
+        <h2>Academic Services</h2>
+        <ul>
+          <li>Journal Reviewer: IJCV, TNNLS, TCSVT</li>
+          <li>Conference Reviewer: NeurIPS, CVPR, ICCV, ICML, ECCV</li>
+        </ul>
+      </section>
+
+      <footer>
+        <p>Last updated: April 2026</p>
+      </footer>
     </div>
   </body>
 </html>

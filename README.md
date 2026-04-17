@@ -7,6 +7,7 @@ This folder contains a static personal homepage suitable for GitHub Pages.
 - `index.html`: main page content
 - `assets/css/style.css`: page styling
 - `assets/docs/CV_Zihui_Zhang.pdf`: downloadable CV
+- `assets/images/`: image placeholders (you can add your own photos here)
 - `.nojekyll`: disables Jekyll processing on GitHub Pages
 
 ## Local preview
@@ -43,4 +44,12 @@ Edit the sections in `index.html`:
 - Academic Activities
 
 Replace the CV file at `assets/docs/CV_Zihui_Zhang.pdf` when you update your resume.
+
+## Image placeholders
+
+The page already reserves empty image positions. You only need to drop files into these paths:
+
+- `assets/images/avatar.jpg` (recommended `512x512`)
+- `assets/images/research-overview.jpg` (recommended `1600x900`)
+- `assets/images/project-showcase.jpg` (recommended `1600x900`)
 
