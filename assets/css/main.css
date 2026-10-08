@@ -238,11 +238,6 @@ canvas {
   display: block;
 }
 
-.wrapper .publications-section .publication-container .foundsurface-teaser {
-  height: auto;
-  aspect-ratio: 24 / 17;
-}
-
 .wrapper .publications-section .publication-container .info-container {
   flex: 1;
   min-width: 0;
